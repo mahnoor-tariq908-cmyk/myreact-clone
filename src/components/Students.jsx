@@ -1,11 +1,13 @@
 function Student() {
     return (
-        <div className="flex justify-center items-center gap-6 min-h-screen bg-gray-100">
+        <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap
+        justify-center items-center gap-6 px-4 py-10 bg-gray-100 min-h-screen">
 
             {/* Card 1 */}
-            <div className="w-80 h-80 p-6 bg-white border-2 border-blue-200 rounded-2xl shadow-lg text-center
-            hover:shadow-2xl hover:-translate-y-3 hover:border-blue-500 hover:bg-blue-50
-            transition-all duration-500 ease-in-out">
+            <div className="w-full sm:w-80 h-80 p-6 bg-white border-2 border-blue-200
+            rounded-2xl shadow-lg text-center
+            hover:shadow-2xl hover:-translate-y-3 hover:border-blue-500
+            hover:bg-blue-50 transition-all duration-500 ease-in-out">
 
                 <h2 className="text-2xl font-bold mb-3 text-blue-600">
                     Student1
@@ -24,9 +26,10 @@ function Student() {
 
 
             {/* Card 2 */}
-            <div className="w-80 h-80 p-6 bg-white border-2 border-green-200 rounded-2xl shadow-lg text-center
-            hover:shadow-2xl hover:-translate-y-3 hover:border-green-500 hover:bg-green-50
-            transition-all duration-500 ease-in-out">
+            <div className="w-full sm:w-80 h-80 p-6 bg-white border-2 border-green-200
+            rounded-2xl shadow-lg text-center
+            hover:shadow-2xl hover:-translate-y-3 hover:border-green-500
+            hover:bg-green-50 transition-all duration-500 ease-in-out">
 
                 <h2 className="text-2xl font-bold mb-3 text-green-600">
                     Student2
@@ -45,9 +48,10 @@ function Student() {
 
 
             {/* Card 3 */}
-            <div className="w-80 h-80 p-6 bg-white border-2 border-purple-200 rounded-2xl shadow-lg text-center
-            hover:shadow-2xl hover:-translate-y-3 hover:border-purple-500 hover:bg-purple-50
-            transition-all duration-500 ease-in-out">
+            <div className="w-full sm:w-80 h-80 p-6 bg-white border-2 border-purple-200
+            rounded-2xl shadow-lg text-center
+            hover:shadow-2xl hover:-translate-y-3 hover:border-purple-500
+            hover:bg-purple-50 transition-all duration-500 ease-in-out">
 
                 <h2 className="text-2xl font-bold mb-3 text-purple-600">
                     Student3
